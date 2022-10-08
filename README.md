@@ -7,12 +7,10 @@ A tweet generation tool that scrapes users past tweets on topics and generates n
 I utilized Twint's API to scrape tweets into a local text file. The data is then parsed and fed into a Markov Chain where it generates a tweet in the style and rhetoric of the original tweeter.
 
 
-## Favorite Tweets
+## Favorite Tweets to Generate
 
-@elonmusk topic-tesla
-jasdl;fjfs;lj
-@katyparry topic-song
-djfsfj
+@elonmusk and
+@barackobama
 
 ## Getting Started
 
