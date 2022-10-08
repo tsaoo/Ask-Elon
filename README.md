@@ -1,10 +1,18 @@
 # Ask Elon
 
-This is a 
+A tweet generation tool that scrapes users past tweets on topics and generates new ones.
 
 ## Description
 
 I utilized Twint's API to scrape tweets into a local text file. The data is then parsed and fed into a Markov Chain where it generates a tweet in the style and rhetoric of the original tweeter.
+
+
+## Favorite Tweets
+
+@elonmusk topic-tesla
+jasdl;fjfs;lj
+@katyparry topic-song
+djfsfj
 
 ## Getting Started
 
@@ -16,11 +24,18 @@ I utilized Twint's API to scrape tweets into a local text file. The data is then
 
 ### Executing program
 
+
+```
 flask run
+```
 interact with the web server
+
+OR
+
 ```
-code blocks for commands
+python main.py <topic> <twitter_handle>
 ```
+output into terminal
 
 ## Help
 
